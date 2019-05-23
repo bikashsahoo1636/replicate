@@ -936,3 +936,42 @@ h3{
 .footer2 a span:hover{
 	color:#F28005;
 }
+.feedback {
+    right: -8px;
+    top: 33%;
+    padding: 5px 14px 14px 14px;
+    border-bottom: 0px;
+    color: white;
+    -webkit-border-radius: 9px 9px 0px 0px;
+    -webkit-transform-origin: 100% 100% 0;
+    display: block;
+    position: fixed;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 15px;
+    opacity: 1;
+    z-index: 999995;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transition: all .5s ease;
+ 
+}
+.feedback img {
+
+    width: 9px;
+    height: 9px;
+    margin-right: 7px;
+    margin-bottom: 1px;
+    color: transparent;
+    border: none;
+    -webkit-transform: translateZ(0);
+}
+.feedback:hover{
+	padding: 5px 14px 18px 14px;		
+	-webkit-transition: all .5s ease;
+}
