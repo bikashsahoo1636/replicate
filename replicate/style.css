@@ -505,7 +505,7 @@ input[type=submit]:hover {
     display: block;
     width: 53%;
     float: left;
-    margin-left: 50px;
+    margin-left: -3.5vw;
     margin-top: 10px; 
     overflow: hidden;
     box-sizing: border-box;
